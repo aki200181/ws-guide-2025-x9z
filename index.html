@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>和田ゼミ環境構築ガイド - クイックスタート版</title>
+        <style>
+  html { display: none; }
+</style>
+
+<script>
+  (function() {
+    const secret = "aki12138"; 
+
+    const pass = prompt("Enter Access Key:");
+
+    if (pass === secret) {
+      document.documentElement.style.display = "block";
+    } else {
+
+      alert("Access Denied.");
+      location.href = "https://www.google.com"; 
+    }
+  })();
+</script>
     <style>
         :root {
             --bg-color: #f9f9f9;
